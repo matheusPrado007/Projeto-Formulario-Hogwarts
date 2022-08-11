@@ -6,3 +6,11 @@ header {
 .trybewarts-login {
   display: flex;
 }
+
+main , #evaluation-form {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+}
