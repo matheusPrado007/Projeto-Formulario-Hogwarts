@@ -21,15 +21,19 @@
     </header>
     <main>
         <form action="" method="get" id="evaluation-form">
-            <input type="text" name="nome-registro" id="input-name" placeholder="Nome">
-            <input type="text" name="sobrenome-registro" id="input-lastname" placeholder="Sobrenome">
-            <input type="email" name="email-registro" id="input-email" placeholder="Email">
-            <select name="house" id="house">
-                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                <option value="Pytherina" id="pytherina-house">Pytherina</option>
-            </select>
+            <div class="form-row">
+                <input type="text" name="nome-registro" id="input-name" class="evaluation-form-text" placeholder="Nome">
+                <input type="text" name="sobrenome-registro" id="input-lastname" class="evaluation-form-text" placeholder="Sobrenome">
+            </div>
+            <div class="form-row">
+                <input type="email" name="email-registro" id="input-email" placeholder="Email">
+                <select name="house" id="house">
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
         </form>
         <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
     </main>
