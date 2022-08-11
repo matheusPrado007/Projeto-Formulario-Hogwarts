@@ -24,3 +24,7 @@ main , #evaluation-form {
   display: flex;
   flex-direction: row;
 }
+
+.avaliaçao {
+  display: flex;
+}
