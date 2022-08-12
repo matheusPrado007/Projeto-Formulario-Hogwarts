@@ -24,3 +24,13 @@ main , #evaluation-form {
   display: flex;
   flex-direction: row;
 }
+
+.avaliaçao {
+  display: flex;
+}
+
+#radio-family , #conteudos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
